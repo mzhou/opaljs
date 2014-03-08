@@ -1,0 +1,19 @@
+name:                opaljs
+version:             0.1.0
+license:             OtherLicense
+license-file:        LICENSE
+author:              Michael Zhou
+maintainer:          mzhou@cse.unsw.edu.au
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable opaljs
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  build-depends:       base >=4.6,
+                       data-default >=0.5,
+                       ghcjs-jquery >=0.1,
+                       opaldist >=0.1,
+                       opalfare >=0.1,
+                       template-haskell >=2.8,
+                       text >=1.1
