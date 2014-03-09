@@ -10,7 +10,8 @@ cabal-version:       >=1.8
 executable opaljs
   hs-source-dirs:      src
   main-is:             Main.hs
-  build-depends:       base >=4.6,
+  build-depends:       array >=0.5,
+                       base >=4.6,
                        data-default >=0.5,
                        ghcjs-jquery >=0.1,
                        opaldist >=0.1,
